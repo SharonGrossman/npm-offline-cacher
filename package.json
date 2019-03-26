@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint src --fix",
     "babel": "babel src -d lib -s",
-    "build": "rimraf lib && yarn babel && yarn link",
+    "build": "rimraf lib && yarn babel",
     "prepublishOnly": "yarn build",
     "test": "yarn lint"
   },
