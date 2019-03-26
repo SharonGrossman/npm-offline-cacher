@@ -3,16 +3,14 @@
 
 ## Installation
 ```bash
-$ [sudo] npm install npm-offline-cacher
+$ [sudo] npm install -g npm-offline-cacher
 ```
 
 ## Usage
-```js
-import {add} from 'npm-offline-cacher';
-
-add(1, 2); // 3
+``` cli
+npm-offline-cacher install [package],[package],[package]
 ```
 
 ## License
 
-[ISC](LICENSE)
+[MIT](LICENSE)
