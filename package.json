@@ -1,6 +1,6 @@
 {
   "name": "npm-offline-cacher",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Npm caching offline",
   "main": "lib/index.js",
   "bin": {
